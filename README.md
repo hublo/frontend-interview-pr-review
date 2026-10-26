@@ -6,7 +6,6 @@ Application de gestion de shift requests pour du personnel soignant.
 
 - React 18 + TypeScript
 - TanStack Query (server state)
-- Zustand (UI state only)
 
 ## Structure
 
