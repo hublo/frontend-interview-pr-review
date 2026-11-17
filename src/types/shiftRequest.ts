@@ -8,6 +8,8 @@ export interface ShiftRequest {
   date: string;
   startTime: string;
   endTime: string;
-  status: ShiftRequestStatus;
+  currentStatus: ShiftRequestStatus;
+  previousStatus?: ShiftRequestStatus;
   createdAt: string;
+  updatedAt: string;
 }
